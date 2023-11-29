@@ -1,0 +1,25 @@
+#dashboard {
+  .card {
+    min-width: 250px;
+    min-height: 300px;
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+
+  .product-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}

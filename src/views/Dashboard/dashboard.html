@@ -1,0 +1,12 @@
+<div id="dashboard">
+  <v-container>
+    <v-row
+      ><v-col v-for="pro in products" class="card"
+        ><img :src="pro.image" alt="" class="product-img" />
+        <h1>{{pro.title |shorter(20)}}</h1>
+        <p>{{pro.description | shorter(100)}}</p>
+        <div class="buttons"><v-btn color="primary">+</v-btn> <v-btn color="error">-</v-btn></div>
+      </v-col></v-row
+    >
+  </v-container>
+</div>
